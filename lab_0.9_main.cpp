@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main(){
-    int32_t num; // исходное число
+    // Читаем число
+    int32_t num;
     std::cin >> num;
     
     // Частный случай: num = 0
@@ -10,6 +11,7 @@ int main(){
         std::exit(0);
     }
     
+    // Знак числа
     bool isNegative = (num < 0);
     num = std::abs(num);
     
@@ -24,31 +26,28 @@ int main(){
             reverseNum *= 10;
         }
     }
-    numOfDigits--;
+    
     
     //Выводим число
-    int cnt = 0;
     while (reverseNum > 0){
-        
         int dig = reverseNum % 10;
         reverseNum /= 10;
+        numOfDigits--;
         // Частный случай: цифра = 0
         if (dig == 0){
-            numOfDigits--;
-            cnt++;
             continue;
         }
         
         if (isNegative){
             std::cout << '-';
-        }else if(!isNegative && cnt != 0){
-            std::cout << '+';
         }
         
         std::cout << dig << "*10^" << numOfDigits;
         
-        numOfDigits--;
-        cnt++;
+        if (!isNegative && numOfDigits > 0){
+            std::cout << '+';
+        }
+        
     }
     std::cout << "\n";
 }
