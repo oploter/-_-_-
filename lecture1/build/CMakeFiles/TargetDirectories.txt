@@ -1,0 +1,3 @@
+/Users/andreypetrov/Desktop/Petrov_lab_langs/lecture1/build/CMakeFiles/main.dir
+/Users/andreypetrov/Desktop/Petrov_lab_langs/lecture1/build/CMakeFiles/edit_cache.dir
+/Users/andreypetrov/Desktop/Petrov_lab_langs/lecture1/build/CMakeFiles/rebuild_cache.dir
