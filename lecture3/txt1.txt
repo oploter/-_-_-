@@ -1,0 +1,12 @@
+1. Which utility is usually used to build mainland Linux core?
+- Cmake
++ Make
+- Gradle
+- Maven
+- Basel
+
+2. What is your name?
+- Max
++ And
+- Ivn
+- Tim 

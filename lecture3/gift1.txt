@@ -1,0 +1,12 @@
+1. The American holiday of Thanksgiving is celebrated on what day of July? {
+    ~second
+    ~third
+    =fourth
+}
+
+2. Japanese characters originally came from what country? {
+    ~India
+    =China
+    ~Korea
+    ~Egypt}
+
