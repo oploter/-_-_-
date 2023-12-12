@@ -1,0 +1,7 @@
+50 40
+2
+R1 R0402 10 20
+R2 R1206 26 28
+
+ERROR
+intersection R1 R2

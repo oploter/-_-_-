@@ -1,0 +1,22 @@
+500 500
+12
+L1 L3014 15 7
+C1 C16 20 16
+C2 C20 61 15
+R2 R1206 71 21
+R3 R2512 132 66 
+L3 L5730 160 36
+C4_1 C10 5 205
+C4_2 C16 12 212
+L5_1 L5630 68 217
+L5_2 L3014 73 217
+R6_1 R0805 110 220
+R6_2 R1210 121 225
+
+ERROR
+intersection R6_1 R6_2
+intersection R3 L3
+intersection R2 C2
+intersection L5_1 L5_2
+intersection L1 C1
+intersection C4_1 C4_2

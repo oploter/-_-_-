@@ -1,0 +1,14 @@
+100 100
+4
+L1 L5730 28.5 15
+C1 C18 28.5 15
+C2 C8 28.5 15
+L2 L5050 54 41
+
+ERROR
+intersection L1 L2
+intersection L1 C1
+intersection L1 C2
+intersection L2 C1
+intersection L2 C2
+intersection C1 C2

@@ -1,0 +1,19 @@
+200 200
+7
+R1 R1812 32 50
+R2 R1812 49 26
+R3 R1812 49 74
+R4 R1812 66 50
+R5 R1812 83 26
+R6 R1812 83 74
+R7 R1812 100 50
+
+ERROR
+intersection R1 R2
+intersection R1 R3
+intersection R2 R4
+intersection R3 R4
+intersection R4 R5
+intersection R4 R6
+intersection R5 R7
+intersection R6 R7
